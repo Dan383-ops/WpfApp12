@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1488.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1488"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBox Name="txt"></TextBox>
+        <Calendar Name="cal" SelectedDatesChanged="cal_SelectedDatesChanged"></Calendar>
+        <TextBox Name="txtinner" Text="Название события"></TextBox>
+        <TextBox Name="txtinner0" Text="Описание события"></TextBox>
+        <DatePicker Name="clnd" SelectedDateChanged="clnd_SelectedDateChanged"></DatePicker>
+        <Button Name="put" Content="Добавить" />
+    </StackPanel>
+</Window>
